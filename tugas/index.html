@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <!-- logo -->
+        <div class="logo-icon"></div>
+        <!-- navigation -->
+        <nav>
+            <a href="#section-home">Home</a>
+            <a href="#section-our-profile">Our Profile</a>
+            <a href="#section-portfolio">Portfolio</a>
+            <a href="#section-message-us">Message Us</a>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <!-- home -->
+        <section id="section-home"></section>
+            <header>
+                <h1>Hi Harfi, Welcome To Website</h1>
+            </header>
+
+            <article>
+                <p>Ini adalah website latihan pertama</p>
+                <!-- photo banner -->
+                <div class="photo-banner"></div>
+            </article>
+            <hr>
+
+        <!-- our profile -->
+        <section id="section-our-profile"></section>
+        <header>
+            <h1>Our Headquarter</h1>
+            <div class="profile-icon-container">
+                <div>
+                    <div class="profile-icon"></div>
+                    <h4>Jakarta</h4>
+                </div>
+                <div>
+                    <div class="profile-icon"></div>
+                    <h4>Bandung</h4>
+                </div>
+                <div>
+                    <div class="profile-icon"></div>
+                    <h4>Surabaya</h4>
+                </div>
+            </div>
+        </header>
+
+        <hr>
+
+        <!-- mesej us -->
+        <section id="section-message-us"></section>
+        <header>
+            <h1>Message Us</h1>
+        </header>
+        <section>
+            <div class="container">
+                <div class="form-container">
+                    <form class="form">
+                        <div class="form-row">
+                            <label for="nama" class="label-nama">Nama : </label>
+                            <input id="name" type="text" placeholder="Nama">
+                        </div>
+                        <div class="form-row">
+                            <label for="tanggal-lahir">Tanggal Lahir :&nbsp;</label>
+                            <input type="date" id="tanggal-lahir" name="tanggal-lahir">
+                        </div>
+                        <div class="form-row">
+                            <label>Jenis Kelamin :</label>
+                            <div class="gender-options">
+                                <input type="radio" id="laki-laki" name="gender" value="Laki-Laki">
+                                <label for="laki-laki">Laki-Laki</label>
+                                <input type="radio" id="perempuan" name="gender" value="Perempuan">
+                                <label for="perempuan">Perempuan</label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label for="pesan">Pesan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;</label>
+                            <textarea id="pesan" name="pesan" placeholder="Pesan" ></textarea>
+                        </div>
+                        <button class="submit-button" type="submit">Submit</button>
+                    </form>
+                </div>
+        
+                <div class="output-container">
+                    <p><strong>Current time :</strong> Fri Jun 17 2022 11:27:28 GMT+0100</p>
+                    <p><strong>Nama :</strong> Harfi Novian</p>
+                    <p><strong>Tanggal Lahir :</strong> 01/11/1995</p>
+                    <p><strong>Jenis Kelamin :</strong> Laki-Laki</p>
+                    <p><strong>Pesan :</strong> Lagi Belajar buat Website</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <br>
+    <footer class="footer">Created by Revou</footer>
+    <br>
+</body>
+</html>
